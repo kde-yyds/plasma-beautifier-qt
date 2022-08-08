@@ -1,0 +1,17 @@
+[Common]
+ButtonIconStyle=StyleOxygen
+ShadowSize=ShadowVeryLarge
+TranslucentButtonBackgrounds=false
+
+[Style]
+MenuOpacity=16
+
+[Windeco]
+ColorizeThinWindowOutlineWithButton=false
+CornerRadius=3
+DrawSizeGrip=true
+OpaqueMaximizedTitlebars=false
+ThinWindowOutlineCustomColor=41,217,14
+ThinWindowOutlineStyle=WindowOutlineCustomColor
+ThinWindowOutlineThickness=2.6
+UseTitlebarColorForAllBorders=false
