@@ -97,7 +97,7 @@ void plasma_beautifier_qt::on_pushButton_10_clicked()
 
 void plasma_beautifier_qt::on_pushButton_11_clicked()
 {
-    system("cp -r /usr/lib/plasma-beautifier/data/Lightly-transparent.colors ~/.local/share/color-schemes/");
+    system("cp -r /usr/lib/plasma-beautifier-qt/data/Lightly-transparent.colors ~/.local/share/color-schemes/");
 }
 
 
