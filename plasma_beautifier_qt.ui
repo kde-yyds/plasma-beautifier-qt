@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>672</height>
+    <width>1280</width>
+    <height>720</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,7 +18,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>10</y>
+      <y>30</y>
       <width>781</width>
       <height>81</height>
      </rect>
@@ -31,8 +31,8 @@
       <rect>
        <x>0</x>
        <y>0</y>
-       <width>771</width>
-       <height>71</height>
+       <width>779</width>
+       <height>79</height>
       </rect>
      </property>
      <widget class="QLabel" name="label">
@@ -80,9 +80,9 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>90</y>
+      <y>120</y>
       <width>781</width>
-      <height>551</height>
+      <height>571</height>
      </rect>
     </property>
     <property name="widgetResizable">
@@ -93,8 +93,8 @@
       <rect>
        <x>0</x>
        <y>0</y>
-       <width>771</width>
-       <height>541</height>
+       <width>779</width>
+       <height>569</height>
       </rect>
      </property>
      <widget class="QScrollArea" name="scrollArea_qtstyle">
@@ -114,8 +114,8 @@
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>711</width>
-         <height>71</height>
+         <width>719</width>
+         <height>79</height>
         </rect>
        </property>
        <widget class="QLabel" name="label_3">
@@ -202,8 +202,8 @@
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>711</width>
-         <height>71</height>
+         <width>719</width>
+         <height>79</height>
         </rect>
        </property>
        <widget class="QLabel" name="label_4">
@@ -253,7 +253,7 @@
         <x>20</x>
         <y>250</y>
         <width>721</width>
-        <height>181</height>
+        <height>211</height>
        </rect>
       </property>
       <property name="widgetResizable">
@@ -264,15 +264,15 @@
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>711</width>
-         <height>171</height>
+         <width>719</width>
+         <height>209</height>
         </rect>
        </property>
        <widget class="QScrollArea" name="scrollArea_3">
         <property name="geometry">
          <rect>
           <x>0</x>
-          <y>40</y>
+          <y>50</y>
           <width>711</width>
           <height>61</height>
          </rect>
@@ -285,8 +285,8 @@
           <rect>
            <x>0</x>
            <y>0</y>
-           <width>701</width>
-           <height>51</height>
+           <width>709</width>
+           <height>59</height>
           </rect>
          </property>
          <widget class="QLabel" name="label_6">
@@ -321,7 +321,7 @@
         <property name="geometry">
          <rect>
           <x>0</x>
-          <y>100</y>
+          <y>130</y>
           <width>711</width>
           <height>61</height>
          </rect>
@@ -334,8 +334,8 @@
           <rect>
            <x>0</x>
            <y>0</y>
-           <width>701</width>
-           <height>51</height>
+           <width>709</width>
+           <height>59</height>
           </rect>
          </property>
          <widget class="QLabel" name="label_7">
@@ -411,7 +411,7 @@
       <property name="geometry">
        <rect>
         <x>20</x>
-        <y>450</y>
+        <y>470</y>
         <width>731</width>
         <height>81</height>
        </rect>
@@ -424,8 +424,8 @@
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>721</width>
-         <height>71</height>
+         <width>729</width>
+         <height>79</height>
         </rect>
        </property>
        <widget class="QLabel" name="label_8">
@@ -468,6 +468,55 @@
         </property>
        </widget>
       </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QScrollArea" name="scrollArea_6">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>80</y>
+      <width>451</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents_9">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>449</width>
+       <height>429</height>
+      </rect>
+     </property>
+     <widget class="QPushButton" name="pushButton_13">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>70</y>
+        <width>251</width>
+        <height>45</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>重启plasmashell</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_14">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>180</y>
+        <width>251</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>重启kwin（X11）</string>
+      </property>
      </widget>
     </widget>
    </widget>

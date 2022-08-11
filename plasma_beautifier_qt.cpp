@@ -4,6 +4,7 @@
 #include <QFile>
 #include <iostream>
 #include <fstream>
+
 plasma_beautifier_qt::plasma_beautifier_qt(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::plasma_beautifier_qt)
@@ -104,5 +105,20 @@ void plasma_beautifier_qt::on_pushButton_11_clicked()
 void plasma_beautifier_qt::on_pushButton_12_clicked()
 {
     system("systemsettings5 kcm_colors");
+}
+
+
+void plasma_beautifier_qt::on_pushButton_13_clicked()
+{
+    system("killall plasmashell");
+    system("plasmashell&");
+}
+
+
+
+void plasma_beautifier_qt::on_pushButton_14_clicked()
+{
+    system("killall kwin_x11");
+    system("kwin_x11&");
 }
 
