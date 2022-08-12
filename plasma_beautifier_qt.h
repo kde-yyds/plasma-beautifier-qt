@@ -43,6 +43,8 @@ private slots:
 
     void on_pushButton_14_clicked();
 
+    void on_pushButton_15_clicked();
+
 private:
     void loadkwinversionTextFile();
     Ui::plasma_beautifier_qt *ui;

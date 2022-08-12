@@ -518,6 +518,19 @@
        <string>重启kwin（X11）</string>
       </property>
      </widget>
+     <widget class="QPushButton" name="pushButton_15">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>270</y>
+        <width>251</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>隐藏窗口</string>
+      </property>
+     </widget>
     </widget>
    </widget>
   </widget>

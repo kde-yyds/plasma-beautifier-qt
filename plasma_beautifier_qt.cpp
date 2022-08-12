@@ -122,3 +122,9 @@ void plasma_beautifier_qt::on_pushButton_14_clicked()
     system("kwin_x11&");
 }
 
+
+void plasma_beautifier_qt::on_pushButton_15_clicked()
+{
+    this->hide();
+}
+
