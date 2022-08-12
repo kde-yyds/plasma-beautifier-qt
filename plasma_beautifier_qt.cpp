@@ -131,6 +131,6 @@ void plasma_beautifier_qt::on_pushButton_15_clicked()
 
 void plasma_beautifier_qt::on_pushButton_16_clicked()
 {
-    system("x-www-br");
+    system("x-www-browser https://github.com/kde-yyds/plasma-beautifier-qt/issues/new &");
 }
 
