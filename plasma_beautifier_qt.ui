@@ -531,6 +531,19 @@
        <string>隐藏窗口</string>
       </property>
      </widget>
+     <widget class="QPushButton" name="pushButton_16">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>350</y>
+        <width>251</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>报告程序缺陷</string>
+      </property>
+     </widget>
     </widget>
    </widget>
   </widget>

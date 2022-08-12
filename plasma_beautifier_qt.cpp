@@ -128,3 +128,9 @@ void plasma_beautifier_qt::on_pushButton_15_clicked()
     this->hide();
 }
 
+
+void plasma_beautifier_qt::on_pushButton_16_clicked()
+{
+    system("x-www-br");
+}
+
