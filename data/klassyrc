@@ -8,10 +8,12 @@ MenuOpacity=16
 
 [Windeco]
 ColorizeThinWindowOutlineWithButton=false
-CornerRadius=3
+CornerRadius=4.9999999999999964
 DrawSizeGrip=true
+LockTitleBarTopBottomMargins=false
 OpaqueMaximizedTitlebars=false
-ThinWindowOutlineCustomColor=41,217,14
+ThinWindowOutlineCustomColor=41,255,255
 ThinWindowOutlineStyle=WindowOutlineCustomColor
-ThinWindowOutlineThickness=2.6
-UseTitlebarColorForAllBorders=false
+ThinWindowOutlineThickness=1.05
+TitlebarBottomMargin=3
+TitlebarTopMargin=2

@@ -44,7 +44,7 @@ void plasma_beautifier_qt::on_pushButton_clicked()
 
 void plasma_beautifier_qt::on_pushButton_2_clicked()
 {
-    system("konsole -e /usr/lib/plasma-beautifier-qt/data/installlightly.sh");
+    system("konsole -e /usr/lib/plasma-beautifier-qt/data/installlightly.sh&");
 }
 
 
@@ -56,7 +56,7 @@ void plasma_beautifier_qt::on_pushButton_3_clicked()
 
 void plasma_beautifier_qt::on_pushButton_4_clicked()
 {
-    system("systemsettings5 kcm_style");
+    system("systemsettings5 kcm_style&");
 }
 
 
@@ -68,19 +68,19 @@ void plasma_beautifier_qt::on_pushButton_5_clicked()
 
 void plasma_beautifier_qt::on_pushButton_6_clicked()
 {
-    system("systemsettings5 kcm_desktoptheme");
+    system("systemsettings5 kcm_desktoptheme&");
 }
 
 
 void plasma_beautifier_qt::on_pushButton_7_clicked()
 {
-    system("konsole -e /usr/lib/plasma-beautifier-qt/data/installlightly.sh");
+    system("konsole -e /usr/lib/plasma-beautifier-qt/data/installlightly.sh&");
 }
 
 
 void plasma_beautifier_qt::on_pushButton_8_clicked()
 {
-    system("konsole -e /usr/lib/plasma-beautifier-qt/data/installklassy.sh");
+    system("konsole -e /usr/lib/plasma-beautifier-qt/data/installklassy.sh&");
 }
 
 
@@ -92,7 +92,7 @@ void plasma_beautifier_qt::on_pushButton_9_clicked()
 
 void plasma_beautifier_qt::on_pushButton_10_clicked()
 {
-    system("systemsettings5 kcm_kwindecoration");
+    system("systemsettings5 kcm_kwindecoration&");
 }
 
 
